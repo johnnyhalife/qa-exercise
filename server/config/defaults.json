@@ -1,0 +1,7 @@
+{
+  "auth": {
+      "domain": "auth0-domain",
+      "clientId": "auth0-client-id",
+      "clientSecret": "auth0-client-secret"
+  }
+}

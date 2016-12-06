@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+  client:
+    build:
+      context: ./client
+    volumes:
+      - ${PWD}/client:/usr/src
+      - /usr/src/node_modules
+    ports:
+      - "3000:3000"
+
+  server:
+    build:
+      context: ./server
+    volumes:
+      - ${PWD}/server:/usr/src
+      - /usr/src/node_modules
+    ports:
+      - "5000:5000"
