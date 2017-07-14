@@ -88,6 +88,7 @@ The server app has a unit test into it, to run the unit test you can do the foll
 ```bash 
 $ > cd server 
 $ > docker build -t server . 
+$ > npm install
 $ > docker run -v $PWD:/usr/src server npm test
 ```
 
