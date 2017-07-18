@@ -88,6 +88,7 @@ The server app has a unit test into it, to run the unit test you can do the foll
 ```bash 
 $ > cd server 
 $ > docker build -t server . 
+$ > npm install
 $ > docker run -v $PWD:/usr/src server npm test
 ```
 
@@ -98,4 +99,4 @@ And the server has been bootstraped with `express.js` on NodeJs.
 
 ## Questions? Feedback? Concerns
 
-Write directly to me at johnny@mural.ly
+Write directly to me at vito@mural.ly
